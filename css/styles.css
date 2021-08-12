@@ -272,6 +272,8 @@ a {
 /* Cards */
 
 .card {
+  width: 30%;
+  padding: 4rem;
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #d1d0d0;
   overflow: hidden;
@@ -352,4 +354,21 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+
+/* Media */
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
 }
